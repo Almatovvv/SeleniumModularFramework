@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+    <test name="Login Test">
+        <parameter name="username" value="mngr380315"/>
+        <parameter name="password" value="YgebUsa"/>
+        <classes>
+            <class name="com.guru99.tests.LoginTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
